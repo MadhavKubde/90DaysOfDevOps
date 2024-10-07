@@ -18,3 +18,34 @@ Task: What are the Linux commands to
 Reference: [Linux Commands for DevOps Used Day-to-Day](https://www.linkedin.com/pulse/linux-commands-devops-used-day-to-day-activit-chetan-/)
 
 [← Previous Day](../day02/README.md) | [Next Day →](../day04/README.md)
+
+
+
+Solutions :-
+
+  cd
+  touch DevOps.txt
+  cat DevOps.txt 
+  vim DevOps.txt 
+  cat -n Devops.txt
+  cat -n DevOps.txt
+  chmod 700 DevOps.txt 
+  ls -l
+  history | tail -n 10
+  mkdir AWS
+  ls
+  rm -r AWS/
+  echo -e "Apple\nBanana\nCherry\NMango\nOrange" > fruits.txt
+  cat fruits.txt
+  echo -e "Apple\nMango\nBanana\nCherry\nKiwi\nOrange\nGuava" > devops.txt
+  echo "Pineapple" >> devops.txt
+  cat devops.txt
+  head -n 3 fruits.txt | tac
+  tail -n 3 fruits.txt | sort
+  echo -e "Red\nPink\nWhite\nBlack\nBlue\nOrange\nPurple\nGrey" > Colors.txt
+  cat Colors.txt
+  echo "Yellow" | cat - Colors.txt > temp && mv temp Colors.txt
+  cat Colors.txt
+  comm -12 <(sort fruits.txt) <(sort Colors.txt)
+  wc fruits.txt
+  wc Colors.txt
